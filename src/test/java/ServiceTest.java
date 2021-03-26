@@ -6,8 +6,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ServiceTest {
 
+    private Service serv1;
+    private Service serv2;
+    private Service serv3;
+
     @BeforeEach
     void setUp() {
+
+        serv1 = new Service();
+        serv2 = new Service();
+        serv3 = new Service();
+        serv1 = serv2;
 
     }
 
@@ -17,7 +26,7 @@ class ServiceTest {
     }
     @Test
     void testIdentity(){
-
+        assertSame(serv1 , serv2);
     }
 
     @Test
