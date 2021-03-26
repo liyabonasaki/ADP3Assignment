@@ -15,6 +15,8 @@ public class Connection_impl implements Connection {
         serv1.setPort(Integer.parseInt("Input port : " + key.next()));
         serv1.setHostname("Input hostname : " + key.next());
 
+        serv1.toString();
+
     }
 
     public void connection(){
