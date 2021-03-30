@@ -4,6 +4,6 @@ public class main {
 
        Connection_impl con = new Connection_impl();
        con.connect_to_server();
-       con.connection();
+
     }
 }
