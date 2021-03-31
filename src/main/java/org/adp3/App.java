@@ -1,4 +1,4 @@
-package org.example;
+package org.adp3;
 
 /**
  * Hello world!
