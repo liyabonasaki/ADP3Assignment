@@ -1,7 +1,11 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
+/*
+    @Author : 217120830
+    @Ver    : 1.0
+    @Descr  : Adp3 Assignment
+
+     */
+
+import org.junit.jupiter.api.*;
 import org.junit.platform.commons.JUnitException;
 
 import java.util.concurrent.TimeUnit;
@@ -37,6 +41,10 @@ class ServiceTest {
     @Test
     void testEquality(){
         assertEquals(serv1, serv2);
+
+    }
+    @Disabled
+    void ignoreTest(){
 
     }
 
