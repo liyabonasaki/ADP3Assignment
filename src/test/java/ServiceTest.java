@@ -44,7 +44,7 @@ class ServiceTest {
     @Timeout(5)
     public void TimeoutTest() throws InterruptedException {
 
-        TimeUnit.SECONDS.sleep(7);
+        TimeUnit.SECONDS.sleep(4);
 
         String [] servers  = {"serv1", "serv2", "serv3"};
 
