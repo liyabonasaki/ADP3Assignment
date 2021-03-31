@@ -1,4 +1,4 @@
-package org.adp3;
+package za.ac.cput_adp3;
 
 /**
  * Hello world!
