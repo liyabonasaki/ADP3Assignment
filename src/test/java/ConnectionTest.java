@@ -5,9 +5,9 @@
 
      */
 
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -25,6 +25,7 @@ class ConnectionTest {
 
             }
         };
+
 
         con2 = new Connection() {
             @Override

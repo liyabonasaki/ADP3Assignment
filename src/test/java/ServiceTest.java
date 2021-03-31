@@ -43,9 +43,15 @@ class ServiceTest {
         assertEquals(serv1, serv2);
 
     }
-    @Disabled
+
+    @
     void ignoreTest(){
 
+    }
+
+    @Test
+    void fail(){
+        System.out.println("Execution stoped : Test failed");;
     }
 
     @Test
