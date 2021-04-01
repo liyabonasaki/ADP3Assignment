@@ -1,9 +1,14 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
+/*
+    @Author : 217120830
+    @Ver    : 1.0
+    @Descr  : Adp3 Assignment
+
+     */
+
+import org.junit.jupiter.api.*;
 import org.junit.platform.commons.JUnitException;
 
+import java.sql.SQLOutput;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -37,6 +42,14 @@ class ServiceTest {
     @Test
     void testEquality(){
         assertEquals(serv1, serv2);
+
+    }
+
+
+    @Test
+    void fail(){
+        //test if serv2 connection is the same with server3 connection
+        assertSame(serv2 , serv3);
 
     }
 
