@@ -18,9 +18,11 @@ public class Connection_impl implements Connection {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = (Connection) DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/ADP3_Assignment","root","");
-
             con.connect_to_server();
+            System.out.println("Connected succesful ");
+
         }catch(Exception e){
+            System.out.println("Cant connect to servers");
             System.out.println(e.getStackTrace());
         }
 

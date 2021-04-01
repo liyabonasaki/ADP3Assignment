@@ -26,7 +26,6 @@ class ConnectionTest {
             }
         };
 
-
         con2 = new Connection() {
             @Override
             public void connect_to_server() {

@@ -8,6 +8,7 @@
 import org.junit.jupiter.api.*;
 import org.junit.platform.commons.JUnitException;
 
+import java.sql.SQLOutput;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -44,14 +45,12 @@ class ServiceTest {
 
     }
 
-//    @
-//    void ignoreTest(){
-//
-//    }
 
     @Test
     void fail(){
-        System.out.println("Execution stoped : Test failed");;
+        //test if serv2 connection is the same with server3 connection
+        assertSame(serv2 , serv3);
+
     }
 
     @Test
