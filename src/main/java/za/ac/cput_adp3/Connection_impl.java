@@ -1,13 +1,13 @@
-/*
+package za.ac.cput_adp3;/*
     @Author : 217120830
     @Ver    : 1.0
     @Descr  : Adp3 Assignment
 
      */
 
+import za.ac.cput_adp3.Connection;
+
 import java.sql.DriverManager;
-import java.sql.SQLOutput;
-import java.util.*;
 
 public class Connection_impl implements Connection {
 
