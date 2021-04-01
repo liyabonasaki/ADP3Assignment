@@ -1,4 +1,4 @@
-/*
+package za.ac.cput_adp3;/*
     @Author : 217120830
     @Ver    : 1.0
     @Descr  : Adp3 Assignment
@@ -41,7 +41,7 @@ class ServiceTest {
 
     @Test
     void testEquality(){
-        assertEquals(serv1, serv2);
+        Assertions.assertEquals(serv1, serv2);
 
     }
 
