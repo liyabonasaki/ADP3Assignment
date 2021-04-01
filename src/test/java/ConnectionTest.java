@@ -45,4 +45,10 @@ class ConnectionTest {
     void testNotIdentity(){
         assertNotSame(con1 ,con2);
     }
+
+    @Disabled
+//  con2 cannot connect to server
+    void diabledTest(){
+       assertNotNull(con2);
+    }
 }
